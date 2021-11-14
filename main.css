@@ -4,20 +4,14 @@
   --primary-color: hsl(185, 75%, 39%);
   --text-color: hsl(229, 23%, 23%);
   --second-text-color: hsl(227, 10%, 46%);
-  --neutral: hsl(0, 0%, 59%);
 }
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
 }
-html {
-  height: 100%;
-  box-sizing: border-box;
-  font-size: 100%;
-}
-
 body {
   overflow: hidden;
   height: 100vh;
@@ -40,7 +34,7 @@ body {
   bottom: -200px;
   right: -388px;
 }
-
+/* --style-- */
 .card {
   text-align: center;
   overflow: hidden;
@@ -51,11 +45,12 @@ body {
   box-shadow: 0 20px 50px 0 rgba(104, 104, 104, 0.356);
 }
 .hero {
-  height: 141px;
+  height: 7.83rem;
   background-image: url(/images/bg-pattern-card.svg);
   background-size: cover;
 }
 .profile-picture {
+  width: 5rem;
   display: block;
   margin: 0 auto -2rem;
   border: 5px solid white;
