@@ -5,6 +5,11 @@
   --text-color: hsl(229, 23%, 23%);
   --second-text-color: hsl(227, 10%, 46%);
 }
+html,body,.back{
+  over-flow: hidden;
+    height: 100vh;
+  width: 100vh;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,12 +20,6 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(to top, var(--primary-color), hsl(185, 74%, 43%));
-}
-.back {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
 }
 /* --background-- */
 .bg-top,
