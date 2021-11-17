@@ -5,13 +5,7 @@
   --text-color: hsl(229, 23%, 23%);
   --second-text-color: hsl(227, 10%, 46%);
 }
-html,
-body,
-.back {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,16 +14,24 @@ body,
   font-weight: 400;
 }
 body {
+  height: 100vh;
+  overflow: hidden;
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(to top, var(--primary-color), hsl(185, 74%, 43%));
+  background-position: center;
+  background-size: cover;
 }
 .back {
+  position: fixed;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   justify-content: center;
   align-items: center;
 }
+
 /* --background-- */
 .bg-top,
 .bg-bottom {
